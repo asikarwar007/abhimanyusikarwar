@@ -1,0 +1,53 @@
+<!-- mobile header -->
+<header class="mobile-header-1">
+	<div class="container">
+		<!-- menu icon -->
+		<div (click)='openTab()' class="menu-icon d-inline-flex mr-4">
+        <i class="fas fa-bars" style='font-size:14px; color:white'></i>
+			<!-- <button>
+				<span></span>
+               
+			</button> -->
+		</div>
+		<!-- logo image -->
+		<div class="site-logo">
+			<a routerLink="/">
+                <h5 class="text-white">Abhimanyu Sikarwar</h5>
+				<!-- <img src="/assets/images/logo.svg" alt="Bolby" /> -->
+			</a>
+		</div>
+	</div>
+</header>
+
+<!-- desktop header -->
+<header class="desktop-header-1 d-flex align-items-start flex-column">
+	
+	<!-- logo image -->
+	<div class="site-logo">
+		<a routerLink="/">
+            <h5 class="text-white">Abhimanyu Sikarwar</h5>
+			<!-- <img src="/assets/images/logo.svg" alt="Bolby" /> -->
+		</a>
+	</div>
+	
+	<!-- main menu -->
+	<nav style='width:100%;'>
+		<ul class="vertical-menu scrollspy">
+			<li class="active"><a routerLinkActive='active' routerLink="/home"><i class="icon-home"></i>Home</a></li>
+			<li><a routerLinkActive='active' routerLink="/about"><i class="icon-user-following"></i>About</a></li>
+			<li><a routerLinkActive='active' routerLink="/services"><i class="icon-briefcase"></i>Services</a></li>
+			<li><a routerLinkActive='active' routerLink="/experience"><i class="icon-graduation"></i>Experience</a></li>
+			<li><a routerLinkActive='active' routerLink="/work"><i class="icon-layers"></i>Works</a></li>
+			<li><a routerLinkActive='active' routerLink="/testimonials"><i class="icon-note"></i>Testimonials</a></li>
+			<!-- <li><a routerLinkActive='active' routerLink="/blog"><i class="icon-note"></i>Blog</a></li> -->
+			<li><a routerLinkActive='active' routerLink="/contact"><i class="icon-bubbles"></i>Contact</a></li>
+		</ul>
+	</nav>
+	
+	<!-- site footer -->
+	<div class="footer">
+		<!-- copyright text -->
+		<span class="copyright">© 2020 Abhimanyu Sikarwar.</span>
+	</div>
+
+</header>
